@@ -22,7 +22,7 @@ test:
   database: sample_app_test
   username: developer
   password: developer
-  schema_search_path: "test, public"
+  schema_search_path: "public"
 
 production:
   adapter: postgresql

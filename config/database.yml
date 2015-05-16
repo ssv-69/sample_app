@@ -10,7 +10,6 @@ development:
   database: sample_app_devel
   username: developer
   password: developer
-  schema_search_path: "development"
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -22,7 +21,6 @@ test:
   database: sample_app_test
   username: developer
   password: developer
-  schema_search_path: "public"
 
 production:
   adapter: postgresql
@@ -31,4 +29,3 @@ production:
   database: sample_app_prod
   username: developer
   password: developer
-  schema_search_path: "production"
